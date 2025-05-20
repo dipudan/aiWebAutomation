@@ -8,7 +8,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class GeminiClient {
-    private static final String API_KEY = "AIzaSyD5V8BFWq_XjXGKJ6ikiN574s90Liykrco";
+    private static final String API_KEY = "*************";
     private static final String ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-001:generateContent?key=" + API_KEY;
     private static final MediaType JSON = MediaType.get("application/json; charset=utf-8");
 
